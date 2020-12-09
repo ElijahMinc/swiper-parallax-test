@@ -1,0 +1,128 @@
+html,
+body {
+   margin: 0;
+   padding: 0;
+   height: 100%;
+   background-color: rgb(151, 125, 125);
+}
+*,
+*:after,
+*:before {
+   box-sizing: border-box;
+}
+ul,
+li {
+   list-style: none;
+}
+.wrapper {
+   width: 100%;
+}
+.wrapper-title {
+}
+.image-slider {
+   width: 100%;
+   padding: 30px 0;
+   height: 600px;
+}
+.swiper-container {
+}
+.image-slider__wrapper {
+}
+.swiper-wrapper {
+}
+.image-slider__slide {
+ 
+}
+.swiper-slide {
+}
+.image-slider__image {
+   text-align: center;
+}
+.image-slider__image img {
+   max-width: 100%;
+}
+.swiper-button-prev:after,
+.swiper-button-next:after {
+   color: #000;
+   font-size: 50px;
+}
+.image-slider .swiper-pagination {
+   position: absolute;
+   bottom:0;
+}
+.image-slider .swiper-pagination-bullet {
+   width: 20px;
+   height: 20px;
+   line-height: 20px;
+   font-size: 20px;
+   background-color: white;
+}
+.image-slider .swiper-pagination-fraction{
+   color: #fff;
+   font-size: 20px;
+}
+.image-slider .swiper-pagination-progressbar-fill{
+   background-color: green;
+}
+ /*autoHeight*/
+.image-slider .swiper-slide{
+
+}
+.image-slider{
+
+}
+/* /////////////////////////////////
+
+Mini slider preview
+
+/////////////////////////////////////
+*/
+
+.image-mini-slider {
+
+}
+.swiper-container {}
+.image-mini-slider__wrapper {}
+.swiper-wrapper {}
+.image-mini-slider__slide {
+   opacity: 0.2;
+   transition: opactity 0.3s ease 0s;
+   text-align: center
+}
+.image-mini-slider__slide.swiper-slide-thumb-active{
+   opacity: 1;
+}
+.swiper-slide {}
+.image-mini-slider__image {
+   position: relative;
+   padding: 0 0 30% 0; 
+   cursor: pointer;
+}
+.image-mini-slider__image img{
+   -o-object-fit: contain;
+      object-fit: cover;
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+/*////// SLider in slide ///////////*/
+.image-in-slider {
+   height: 450px;
+}
+.swiper-container {
+}
+.image-in-slider__wrapper {
+}
+.swiper-wrapper {}
+.image-in-slider__slide {
+   height: 450px;
+}
+.swiper-slide {}
+.image-in-slider__image {}
+.image-in-slider__image img{
+   max-width: 100%;
+}
+.image-in-slide .swiper-pagination-bullets{
+}

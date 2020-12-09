@@ -1,0 +1,108 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color: silver;
+}
+*{
+	box-sizing: border-box;
+}
+.wrapper{
+	min-height: 100%;
+	width: 100%;
+}
+.image-swiper {
+	width: 100%;
+	overflow: hidden;
+
+}
+.swiper-container {
+
+}
+.image-swiper__wrapper {
+
+}
+.swiper-wrapper {}
+.image-slider__sl
+ide {
+	padding: 50px 100px;
+}
+.swiper-slide {
+ 
+}
+
+.image-slide {
+	width: 400px;
+	height: 300px;
+}
+.image-slide img{
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	   object-fit: cover;
+
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after{
+	color: black;
+	font-size: 100px;
+}
+
+.swiper-button-prev {}
+.swiper-button-next {}
+.swiper-pagination {}
+.swiper-scrollbar {}
+
+/*///////// parallax //////////*/
+.image-slider__slide{
+	padding: 50px 100px;
+}
+.slider-slide__container{
+	width: 50%;
+}
+.slider-title {
+	font-size: 30px;
+	color: white;
+}
+.slider-text {
+	font-size: 30px;
+	color: white;
+}
+.slider-btn {
+	display: inline-block;
+	text-decoration:none;
+	color: white;
+	background-color: black;
+	margin: 10px 0;
+	padding: 10px 20px;
+}
+.parallax-bg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1000%;
+	height: 100%;
+	background-image: url('img/fon.jpg');
+	z-index: 1;
+}
+
+.parallax-bg:after{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.parallax-swiper{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+
+}
+.content{
+	width: 100%;
+	height: 100vh;
+}

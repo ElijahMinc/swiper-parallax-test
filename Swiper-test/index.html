@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <div class="wrapper">
+      <h1 class="wrapper-title">Swiper</h1>
+      <!-- Свайпер контейнер -->
+      <div class="image-slider swiper-container">
+         <!-- Свайпер со слайдами -->
+         <div class="image-slider__wrapper swiper-wrapper">
+            <!-- Контент внутри слайдера -->
+            <div data-hash="slide-1" class="image-slider__slide swiper-slide">
+               <div class="image-slider__image">
+                  <img data-src="img/img1.jpg" src="img/1x1.png" class="swiper-lazy" alt="Картинка01">
+                  <div class="swiper-lazy-preloader"></div>
+               </div>
+            </div>
+            <div data-hash="slide-2" class="image-slider__slide swiper-slide">
+                  <div class="image-in-slider swiper-container">
+                   <!-- Свайпер со слайдами -->
+                     <div class="image-in-slider__wrapper swiper-wrapper">
+                        <!-- Контент внутри слайдера -->
+                      <div data-hash="slide-2" class="image-in-slider__slide swiper-slide">
+                        <div class="image-in-slider__image">
+                           <img data-src="img/img2.jpg" src="img/1x1.png" class="swiper-lazy" alt="Картинка02">
+                           <div class="swiper-lazy-preloader"></div>
+                        </div>
+                     </div>
+                      <div data-hash="slide-2" class="image-in-slider__slide swiper-slide">
+                        <div class="image-in-slider__image">
+                           <img data-src="img/img3.jpg" src="img/1x1.png" class="swiper-lazy" alt="Картинка03">
+                             <div class="swiper-lazy-preloader"></div>
+                        </div>
+                     </div>
+                      <div data-hash="slide-2" class="image-in-slider__slide swiper-slide">
+                        <div class="image-in-slider__image">
+                           <img data-src="img/img4.jpg" src="img/1x1.png" class="swiper-lazy" alt="Картинка04">
+                             <div class="swiper-lazy-preloader"></div>
+                        </div>
+                     </div>
+                      <div data-hash="slide-2" class="image-in-slider__slide swiper-slide">
+                        <div class="image-in-slider__image">
+                           <img data-src="img/img5.jpg" src="img/1x1.png" class="swiper-lazy" alt="Картинка05">
+                             <div class="swiper-lazy-preloader"></div>
+                        </div>
+                     </div>
+                      <div data-hash="slide-2" class="image-in-slider__slide swiper-slide">
+                        <div class="image-in-slider__image">
+                           <img data-src="img/img6.jpg" src="img/1x1.png" class="swiper-lazy" alt="Картинка06">
+                             <div class="swiper-lazy-preloader"></div>
+                        </div>
+                     </div>
+                  </div>
+                        <!-- Свайпер пагинация( кнокпи и т.д.) -->
+                        <div class="swiper-pagination"> </div>
+               </div>
+            </div>
+            <div data-hash="slide-3" class="image-slider__slide swiper-slide">
+               <div class="image-slider__image">
+                  <img data-src="img/img3.jpg" src="img/1x1.png" class="swiper-lazy" alt="Картинка03">
+                  <div class="swiper-lazy-preloader"></div>
+               </div>
+            </div>
+            <div data-hash="slide-4" class="image-slider__slide swiper-slide">
+               <div class="image-slider__image">
+                  <img data-src="img/img4.jpg" src="img/1x1.png" class="swiper-lazy" alt="Картинка04">
+                  <div class="swiper-lazy-preloader"></div>
+               </div>
+            </div>
+            <div data-hash="slide-5" class="image-slider__slide swiper-slide">
+               <div class="image-slider__image">
+                  <img data-src="img/img5.jpg" src="img/1x1.png" class="swiper-lazy" alt="Картинка05">
+                  <div class="swiper-lazy-preloader"></div>
+               </div>
+            </div>
+            <div data-hash="slide-6" class="image-slider__slide swiper-slide">
+               <div class="image-slider__image">
+                  <img data-src="img/img6.jpg" src="img/1x1.png" class="swiper-lazy" alt="Картинка06">
+                  <div class="swiper-lazy-preloader"></div>
+               </div>
+            </div>
+         </div>
+         <!-- Свайпер кнопки -->
+         <div class="swiper-button-prev">
+
+         </div>
+         <div class="swiper-button-next">
+
+         </div>
+         <!-- Полоса прокрутки -->
+         <div class="swiper-scrollbar">
+
+         </div>
+      </div>
+<!--       Миниатюры. Превью.         -->
+    <!--   <div class="image-mini-slider swiper-container">
+         <div class="image-mini-slider__wrapper swiper-wrapper">
+            <div data-hash="slide-1" class="image-mini-slider__slide swiper-slide">
+               <div class="image-mini-slider__image">
+                  <img src="img/img1.jpg" alt="Картинка01">
+               </div>
+            </div>
+            <div data-hash="slide-1" class="image-mini-slider__slide swiper-slide">
+               <div class="image-mini-slider__image">
+                  <img src="img/img2.jpg" alt="Картинка01">
+               </div>
+            </div>
+            <div data-hash="slide-1" class="image-mini-slider__slide swiper-slide">
+               <div class="image-mini-slider__image">
+                  <img src="img/img3.jpg" alt="Картинка01">
+               </div>
+            </div>
+              <div data-hash="slide-1" class="image-mini-slider__slide swiper-slide">
+               <div class="image-mini-slider__image">
+                  <img src="img/img4.jpg" alt="Картинка01">
+               </div>
+            </div>
+            <div data-hash="slide-1" class="image-mini-slider__slide swiper-slide">
+               <div class="image-mini-slider__image">
+                  <img src="img/img5.jpg" alt="Картинка01">
+               </div>
+            </div>
+             <div data-hash="slide-1" class="image-mini-slider__slide swiper-slide">
+               <div class="image-mini-slider__image">
+                  <img src="img/img6.jpg" alt="Картинка01">
+               </div>
+            </div>
+         </div>
+      </div> -->
+   </div>
+
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+   <script src="js/script.js"></script>
+</body>
+
+</html>
